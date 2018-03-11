@@ -6,12 +6,12 @@
 /* hides Captcha table row */
 
 /* body background and text color */
-html, body { background:none !important; background-color:rgb(26, 30, 33) !important; color:rgb(195, 195, 195) !important; }
+html, body { background:none !important; background-color:rgb(46, 60, 81) !important; color:rgb(195, 195, 195) !important; }
 body { margin:2px !important; }
 
 /* primary link color */
 body a, .quoteLink, .quotelink, .replylink, .useremail, span.nameBlock .useremail, .burichan_new .backlink a, .yotsuba_b_new .backlink a
-{ color:rgb(84, 131, 142) !important; text-decoration:none !important; }
+{ color:rgb(197, 178, 166) !important; text-decoration:none !important; }
 
 body a:hover, a.replylink:hover, a.replylink:not(:hover), div#absbot a:not(:hover), .useremail:hover, span.nameBlock .useremail:hover, .burichan_new .backlink a:hover, .yotsuba_b_new .backlink a:hover
 { color:rgb(184, 176, 164) !important; text-decoration:none !important; }
@@ -24,7 +24,7 @@ hr { opacity:0 !important; }
 div.backlink { font-size:13px !important; }
 
 /* poster name */
-.name, .post-author { color:rgb(179, 121, 77) !important; font-weight: normal !important;}
+.name, .post-author { color:rgb(166, 156, 117) !important; font-weight: normal !important;}
 a.useremail span { color:rgb(110, 110, 149) !important; text-decoration:none !important; }
 a.useremail:hover span { color:rgb(95, 95, 130) !important; text-decoration:none !important; }
 .useremail:not(:hover) .name, .useremail:not(:hover) .postertrip
@@ -44,7 +44,7 @@ div.post div.postInfo span.nameBlock span.postertrip { !important; }
 #settingsBox, #theme.panel, #filters.panel, kbd {
     width:auto !important;
     overflow:hidden !important;
-    background-color:rgb(26, 30, 33) !important;
+    background-color:rgb(46, 60, 81) !important;
     border-radius:3px 3px 3px 3px !important;
     border:0 !important;
 }
@@ -60,7 +60,7 @@ div.post div.postInfo span.nameBlock span.postertrip { !important; }
 .post.reply {
     overflow:hidden !important;
     display:block !important;
-    background-color:rgb(39, 43, 46) !important;
+    background-color:rgb(72, 86, 107) !important;
     border-radius:0px 0px 0px 0px !important;
     border:0 !important;
     padding-right:0px !important;
@@ -120,7 +120,7 @@ textarea,
  {
    -webkit-appearance: none;
    -moz-appearance: none;
-   background-color:rgb(39, 43, 46) !important;
+   background-color:rgb(72, 86, 107) !important;
    color:rgb(205, 205, 205) !important;
    outline:none !important;
    border-width:0 !important;
@@ -253,7 +253,7 @@ input[value="delete"] { display:none !important; }
 /* pages box */
 .pagelist, table.pages {
    background:none !important;
-   background-color:rgb(39, 43, 46) !important;
+   background-color:rgb(72, 86, 107) !important;
    color:rgb(80, 80, 80) !important;
    border:0 !important;
    border-radius:0px 0px 0px 0px !important;
@@ -317,7 +317,7 @@ h3[style="text-decoration: underline; display: inline;"] { text-decoration:none 
 #first-run { background:none !important; color:rgb(195,195,195) !important; border:none !important; }
 
 /* Thread Watcher */
-.threadWatcher, #twHeader, .extPanel.reply { background-color:rgb(26, 30, 33) !important; color:rgb(195, 195, 195) !important; border:none !important; font-weight: normal !important; width: 200px !important;}
+.threadWatcher, #twHeader, .extPanel.reply { background-color:rgb(46, 60, 81) !important; color:rgb(195, 195, 195) !important; border:none !important; font-weight: normal !important; width: 200px !important;}
 
 /* Settings box */
 div.panelHeader { border:none !important; }
